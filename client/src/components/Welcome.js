@@ -35,7 +35,7 @@ const Welcome = () => {
       title: "Clean Water Initiative",
       description: "Install water purification systems in rural communities.",
       goal: 20000,
-      funded: 18000,
+      funded: 1800,
       createdBy: { name: "Aqua for All" },
     },
     {

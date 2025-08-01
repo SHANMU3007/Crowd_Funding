@@ -1,0 +1,87 @@
+.project-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 140px;
+}
+
+.project-details-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.project-details-amount {
+  font-size: 1.25rem;
+  color: #4facfe;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.project-details-error {
+  color: #f72585;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+.progress-wrapper {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.progress-text {
+  position: absolute;
+  right: 0;
+  top: -1.5rem;
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-details-container {
+    margin-top: 180px;
+    padding: 1.5rem;
+  }
+
+  .project-details-title {
+    font-size: 1.75rem;
+  }
+
+  .project-details-amount {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-details-title {
+    font-size: 1.5rem;
+  }
+
+  .project-details-amount {
+    font-size: 1rem;
+  }
+}
